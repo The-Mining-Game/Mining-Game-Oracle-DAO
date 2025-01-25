@@ -54,16 +54,16 @@ Native builds on the Apple Silicon should work out of the box, but the Docker im
 $ docker build . -t chainlink-develop:latest -f ./core/chainlink.Dockerfile
 ```
 
-### Ethereum Execution Client Requirements
+### Altcoinchain Execution Client Requirements
 
-In order to run the Chainlink node you must have access to a running Ethereum node with an open websocket connection.
-Any Ethereum based network will work once you've [configured](https://github.com/smartcontractkit/chainlink#configure) the chain ID.
-Ethereum node versions currently tested and supported:
+In order to run the Chainlink node you must have access to a running Altcoinchain node with an open websocket connection.
+Any Altcoinchain based network will work once you've [configured](https://github.com/smartcontractkit/chainlink#configure) the chain ID.
+Altcoinchain node versions currently tested and supported:
 
 [Officially supported]
 
 - [Parity/Openethereum](https://github.com/openethereum/openethereum) (NOTE: Parity is deprecated and support for this client may be removed in future)
-- [Geth](https://github.com/ethereum/go-ethereum/releases)
+- [Geth](https://github.com/Altcoinchain/go-altcoinchain)
 - [Besu](https://github.com/hyperledger/besu)
 
 [Supported but broken]
@@ -77,7 +77,7 @@ These clients are supported by Chainlink, but have bugs that prevent Chainlink f
   - https://github.com/ledgerwatch/erigon/discussions/4946
   - https://github.com/ledgerwatch/erigon/issues/4030#issuecomment-1113964017
 
-We cannot recommend specific version numbers for ethereum nodes since the software is being continually updated, but you should usually try to run the latest version available.
+We cannot recommend specific version numbers for Altcoinchain nodes since the software is being continually updated, but you should usually try to run the latest version available.
 
 ## Running a local Chainlink node
 
